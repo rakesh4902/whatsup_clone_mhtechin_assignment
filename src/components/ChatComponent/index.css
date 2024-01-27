@@ -1,0 +1,19 @@
+.chat-left-side{
+    display:flex;
+}
+
+.chat-right-side{
+    display:flex;
+    flex-direction: column;
+    width:auto;
+}
+
+.chat-view{
+    background-image: url('https://media.istockphoto.com/id/1371547852/photo/hello-and-welcome-written-white-lightbox-sitting-on-blue-background.jpg?s=612x612&w=0&k=20&c=yHoWPj8ku6gylmAngW2QSgHY-gNaaO5baG-ozYWZq1c=');
+    background-size: cover; /* Ensures the background image covers the entire container */
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
